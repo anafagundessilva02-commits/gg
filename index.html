@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conquiste Sua Casa Própria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <div class="logo">LarDoSonho</div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#passos">Passo a Passo</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>O Sonho da Casa Própria Está Próximo</h1>
+            <p>Planeje seu futuro, saia do aluguel e encontre o lugar perfeito para construir as suas melhores memórias.</p>
+            <a href="#passos" class="btn">Começar Planejamento</a>
+        </div>
+    </section>
+
+    <section id="passos" class="container">
+        <h2 class="section-title">Como se preparar para a compra?</h2>
+        
+        <div class="grid-dicas">
+            <div class="card">
+                <h3>1. Planejamento Financeiro</h3>
+                <p>Organize suas finanças, corte gastos supérfluos e comece a poupar para o valor da entrada, que geralmente é de pelo menos 20% do imóvel.</p>
+            </div>
+            
+            <div class="card">
+                <h3>2. Simule Financiamentos</h3>
+                <p>Pesquise as taxas de juros em diferentes bancos e descubra qual modalidade de crédito cabe melhor no seu orçamento mensal.</p>
+            </div>
+            
+            <div class="card">
+                <h3>3. Escolha a Localização</h3>
+                <p>Visite bairros de seu interesse em horários diferentes para avaliar a segurança, o trânsito e a proximidade de serviços essenciais.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contato-secao">
+        <div class="container">
+            <h2 class="section-title">Fale com um Especialista</h2>
+            <form class="form-contato" onsubmit="event.preventDefault(); alert('Simulação enviada com sucesso!');">
+                <div class="form-group">
+                    <label for="nome">Nome Completo</label>
+                    <input type="text" id="nome" placeholder="Digite seu nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" placeholder="seuemail@exemplo.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Quanto pretende investir na entrada?</label>
+                    <input type="text" id="mensagem" placeholder="Ex: R$ 50.000" required>
+                </div>
+                <button type="submit" class="btn-submit">Solicitar Simulação</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 LarDoSonho - Guia da Casa Própria. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
